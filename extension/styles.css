@@ -1,0 +1,40 @@
+body {
+    background:linear-gradient(#cc00ff,#ff8b6c);
+    color:white;
+    font-weight:600;
+    width:20em;
+}
+
+input[type="range"] {
+    background:#cc00ff;
+}
+
+.button {
+    border: 1px solid white;
+    width:fit-content;
+    padding:5px;
+    border-radius: 5px;
+    font-weight:600;
+}
+
+
+.button:hover{
+    cursor:pointer;
+}
+
+.speed-container {
+    /* border:1px solid black; */
+    margin-top:-25px;
+    display:flex;
+    align-items: center;
+    gap:10px;
+}
+
+#speed {
+    width:60%;
+}
+
+p {
+    font-size:18px;
+    font-weight:700;
+}

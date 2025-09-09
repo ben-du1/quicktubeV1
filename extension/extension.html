@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <link href="styles.css" rel="stylesheet" ></link>
+    </head>
+    <body>
+        <h1>quicktube</h1>
+        <div class="speed-container">
+            <input id="speed" type="range" min="0.0625" max="16" step="0.0001" value="1"/>
+            
+            <p id="speedIndicator">1x</p>
+        </div>
+        <div class="speed-container">
+            <input id="ai" type="checkbox"/>
+            <p>smart speed</p>
+            <i>predicts the speedup of your video. speed slider is disabled when smart speed enabled.</i>
+        </div>
+
+        
+        <div id="reset" class="button">reset</div>
+
+
+        <script src="command.js"></script>
+    </body>
+</html>
