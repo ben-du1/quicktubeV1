@@ -5,9 +5,9 @@
 
 ## Installation
 
-1. Configure SERVER_PATH in extension/content.js
-2. Load extension folder in chrome://extensions using "Load Unpacked" button
-3. Install required dependencies in server/main.py
-4. Configure PORT_NUMBER in server/main.py
-5. Host bottle server using python3 server/main.py
+1. Configure `SERVER_PATH` in `extension/content.js`
+2. Load extension folder in [chrome://extensions](chrome://extensions) using **"Load Unpacked"** button
+3. Install required dependencies in `server/main.py`
+4. Configure `PORT_NUMBER` in `server/main.py`
+5. Host bottle server using `~$ python3 server/main.py`
 6. Additional NGINX configuration may be required if you wish to host using https
